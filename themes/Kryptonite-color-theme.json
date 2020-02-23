@@ -2,10 +2,27 @@
 	"name": "Kryptonite",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.background": "#090909",
+		"editor.foreground": "#aaaaaa",
+		"activityBar.background": "#090909",
+		"activityBar.foreground": "#038b03",
+		"activityBarBadge.background": "#00ce00",
+		"activityBarBadge.foreground": "#000000",
+		"sideBarTitle.foreground": "#bbbcbd",
+		"statusBar.noFolderBackground": "#212b21",
+		"statusBar.noFolderForeground": "#ffffff",
+		"statusBar.background": "#212b21",
+		"statusBar.foreground": "#ffffff",
+		"tab.inactiveBackground": "#000000",
+		"editorGroupHeader.tabsBackground": "#000000",
+		"sideBar.background": "#000000",
+		"sideBar.foreground": "#00ce00",
+		"titleBar.activeBackground": "#212b21",
+		"titleBar.activeForeground": "#eeefff",
+		"titleBar.inactiveBackground": "#000000",
+		"button.background": "#212b21",
+		"textLink.foreground": "#00ce00",
+		"textLink.activeForeground": "#00ce00",
 	},
 	"tokenColors": [
 		{
@@ -26,7 +43,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#00ce00"
 			}
 		},
 		{
@@ -56,7 +73,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#EE857E"
 			}
 		},
 		{
@@ -100,7 +117,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#6CC9EF"
 			}
 		},
 		{
@@ -109,7 +126,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#00ce00"
 			}
 		},
 		{
@@ -139,9 +156,17 @@
 			}
 		},
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "String only",
 			"scope": [
-				"string",
+				"string"
+			],
+			"settings": {
+				"foreground": "#644DED"
+			}
+		},
+		{
+			"name": "Symbols, Inherited Class, Markup Heading",
+			"scope": [
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
@@ -324,6 +349,7 @@
 				"*uri*"
 			],
 			"settings": {
+				"foreground": "#00ce00",
 				"fontStyle": "underline"
 			}
 		},
@@ -436,7 +462,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#00ce00"
 			}
 		},
 		{
