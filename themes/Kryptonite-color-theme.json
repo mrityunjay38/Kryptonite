@@ -73,13 +73,12 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#EE857E"
+				"foreground": "#6CC9EF"
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
@@ -93,7 +92,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#aaa9a9"
 			}
 		},
 		{
@@ -104,7 +103,8 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#00ce00",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -117,7 +117,8 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#6CC9EF"
+				"fontStyle": "bold",
+				"foreground": "#00ce00"
 			}
 		},
 		{
@@ -140,11 +141,17 @@
 			}
 		},
 		{
+			"name": "CSS property value",
+			"scope" : "support.constant",
+			"settings": {
+				"foreground": "#644ded"
+			}
+		},
+		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
 				"constant.language",
-				"support.constant",
 				"constant.character",
 				"constant.escape",
 				"variable.parameter",
@@ -152,7 +159,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#7965ec"
 			}
 		},
 		{
@@ -161,7 +168,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#644DED"
+				"foreground": "#c4b212"
 			}
 		},
 		{
@@ -191,7 +198,8 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#00ce00",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -235,7 +243,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#4e7dff"
 			}
 		},
 		{
@@ -264,7 +272,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#6cc9ef"
 			}
 		},
 		{
@@ -281,10 +289,11 @@
 		{
 			"name": "CSS Classes",
 			"scope": [
-				"entity.other.attribute-name.class"
+				"entity.other.attribute-name.class",
+				"entity.other.attribute-name.id"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#00ce00"
 			}
 		},
 		{
