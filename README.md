@@ -9,9 +9,10 @@ See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 
 ## Dark Green Theme
 
+![Welcome-Screen](images/Welcome.png)
 ![JavaScript](images/JavaScript.png)
 ![JSON](images/JSON.png)
-![CSS](images/JavaScript.png)
+![CSS](images/CSS.png)
 
 ## Usage
 
